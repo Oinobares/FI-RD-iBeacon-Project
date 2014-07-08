@@ -1,14 +1,12 @@
-=======================================================================
-=                                                                     =
-=                                                                     =
-=   FI iBeacon Project                                                =
-=   A R&D Project using Apple's new BLE Technology (iBeacon)          =
-=                                                                     =
-=   Yvan Siggen                                                2014   =
-=                                                                     =
-=   College of Engineering and Architecture of Fribourg Switzerland   =
-=   member of University of Applied Sciences of Western Switzerland   =
-=                                                                     =
+
+   FI iBeacon Project                                                
+   A R&D Project using Apple's new BLE Technology (iBeacon)          
+                                                                     
+   Yvan Siggen                                                2014   
+                                                                    
+   College of Engineering and Architecture of Fribourg Switzerland   
+   member of University of Applied Sciences of Western Switzerland   
+                                                                     
 =======================================================================
 
 Description
