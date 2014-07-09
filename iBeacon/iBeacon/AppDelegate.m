@@ -373,7 +373,6 @@
     
     /*Create an interface for the pushlinking (to be certain that we own the bridge)*/
     self.pushLinkViewController = [[BridgePushLinkViewController alloc] initWithNibName:@"BridgePushLinkViewController" bundle:[NSBundle mainBundle] hueSDK:self.phHueSDK delegate:self];
-#warning is this presenting method ok?
     [self.window addSubview:pushLinkViewController.view];
     [self.pushLinkViewController startPushLinking];
     [self.navigationController presentViewController:self.pushLinkViewController animated:YES completion:^{
@@ -434,7 +433,7 @@
         if (buttonIndex == 0)
         {
             /*Retry : just wait for the heartbeat to finish*/
-            [self showLoadingViewWithText:[NSString stringWithFormat:@"Connexion...", @""]];
+            [self showLoadingViewWithText:@"Connexion..."];
         }
         else if (buttonIndex == 1)
         {

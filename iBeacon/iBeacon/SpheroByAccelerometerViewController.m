@@ -10,7 +10,7 @@
 #import "RobotKit/RobotKit.h"
 #import "RobotUIKit/RobotUIKit.h"
 #import <CoreMotion/CMAccelerometer.h>
-/*Define new update interval for accelerometer, here it is twice a second*/
+/*Define new update interval for accelerometer in seconds*/
 #define updateInterval (0.4f)
 
 

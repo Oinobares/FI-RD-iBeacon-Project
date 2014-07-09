@@ -17,8 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ovv-oP-PTA">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ovv-oP-PTA">
                                 <rect key="frame" x="125" y="290" width="71" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="Ql9-At-kSo"/>
+                                    <constraint firstAttribute="width" constant="71" id="xlG-OY-Iy2"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Suivant">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
@@ -27,7 +31,7 @@
                                     <action selector="onClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2eD-sU-XfK"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Veuillez vous rendre en C10.12 pour utiliser l'application!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="QFs-wZ-4PM">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Veuillez vous rendre en C10.12 pour utiliser l'application!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="QFs-wZ-4PM">
                                 <rect key="frame" x="20" y="128" width="280" height="123"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -36,12 +40,11 @@
                         <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="QFs-wZ-4PM" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="64" id="07L-19-LdA"/>
+                            <constraint firstItem="Ovv-oP-PTA" firstAttribute="centerX" secondItem="QFs-wZ-4PM" secondAttribute="centerX" id="1Bb-fe-jRN"/>
                             <constraint firstAttribute="trailing" secondItem="QFs-wZ-4PM" secondAttribute="trailing" constant="20" id="ApK-Bq-9uZ"/>
-                            <constraint firstItem="Ovv-oP-PTA" firstAttribute="top" secondItem="QFs-wZ-4PM" secondAttribute="bottom" constant="39" id="WPA-H5-uy0"/>
-                            <constraint firstAttribute="trailing" secondItem="Ovv-oP-PTA" secondAttribute="trailing" constant="124" id="aW6-yD-s2I"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Ovv-oP-PTA" secondAttribute="bottom" constant="90" id="bhm-Es-fVQ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Ovv-oP-PTA" secondAttribute="bottom" constant="90" id="ZTX-IW-Bq9"/>
                             <constraint firstItem="QFs-wZ-4PM" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="iIa-x7-AN7"/>
-                            <constraint firstItem="Ovv-oP-PTA" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="125" id="lQ0-4N-Sk9"/>
+                            <constraint firstItem="Ovv-oP-PTA" firstAttribute="top" secondItem="QFs-wZ-4PM" secondAttribute="bottom" constant="39" id="uip-oT-Kg5"/>
                         </constraints>
                     </view>
                     <toolbarItems>

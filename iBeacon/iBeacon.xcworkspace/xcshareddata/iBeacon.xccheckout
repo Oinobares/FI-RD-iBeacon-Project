@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>FC2699CF-7C11-4B93-B42C-8E507EDCAF68</string>
+	<string>5910D624-DDD5-49F6-B898-59DD7D701D0B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>iBeacon</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>70C72E25-17C5-46E6-9660-D47C079CCB12</key>
-		<string>https://github.com/Oinobares/FI-iBeacon-Project.git</string>
+		<key>C3AE1855-5A79-4190-9D9D-DC079B107721</key>
+		<string>https://github.com/Oinobares/FI-RD-iBeacon-Project.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>iBeacon/iBeacon.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>70C72E25-17C5-46E6-9660-D47C079CCB12</key>
+		<key>C3AE1855-5A79-4190-9D9D-DC079B107721</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Oinobares/FI-iBeacon-Project.git</string>
+	<string>https://github.com/Oinobares/FI-RD-iBeacon-Project.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>70C72E25-17C5-46E6-9660-D47C079CCB12</string>
+	<string>C3AE1855-5A79-4190-9D9D-DC079B107721</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>70C72E25-17C5-46E6-9660-D47C079CCB12</string>
+			<string>C3AE1855-5A79-4190-9D9D-DC079B107721</string>
 			<key>IDESourceControlWCCName</key>
-			<string>FI-iBeacon-Project</string>
+			<string>FI-proj</string>
 		</dict>
 	</array>
 </dict>

@@ -61,7 +61,6 @@
 #pragma mark - Navigation
 
 - (IBAction)onClick:(id)sender {/*Action "on click" that performs a segue when inside region*/
-#warning UNCOMMENT THIS FOR REGION TEST TO WORK!
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     if (appDelegate.inRegion) {
         /*Segue has to go from the initial View to the other view. And NOT from the button to the other view!*/
