@@ -25,4 +25,4 @@ Features
 Source code
 
   You can find the Xcode project on Github :
-  https://github.com/Oinobares/FI-iBeacon-Project
+  https://github.com/ySiggen/FI-RD-iBeacon-Project
